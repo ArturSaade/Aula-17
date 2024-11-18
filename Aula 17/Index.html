@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Thema Desenvolvido por Mídia Jataí -->
+  <title>SeuSite</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon-seu-site-midiajatai.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+ 
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+ 
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+
+.fone{
+  text-decoration: none;
+}
+.fa-instagram2 {
+  color: #fff;
+  font-size: 5px;
+  text-align: center;
+  width: 8px;
+  height: 8px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  vertical-align: middle;
+
+
+ 
+}
+  .fa-linkedin2{
+  color: #fff;
+  font-size: 5px;
+  text-align: center;
+  width: 8px;
+  height: 8px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  vertical-align: middle;
+
+
+ 
+}
+.fa-facebook2{
+  color: #fff;
+  font-size: 5px;
+  text-align: center;
+  width: 8px;
+  height: 8px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  vertical-align: middle;
+
+
+ 
+}
+.fa-youtube2{
+  color: #fff;
+  font-size: 5px;
+  text-align: center;
+  width: 8px;
+  height: 8px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  vertical-align: middle;
+
+
+ 
+}
+.z{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.x{
+color: #fff;
+}
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .margin2 {margin-bottom: 10px;}
+  .bg-1 {
+    background-color: #223142; /* azul parsin escuro */
+    color: #ffffff;
+  }
+  .bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-22 {
+    background-color: #303a46; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .bg-5 {
+    background-color: #223142; /* azul parsin */
+    color: #fff;
+  }
+
+
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .container-fluid2 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+   font-size: 12px;
+    letter-spacing: 5px;
+    color: #fff;
+    background-color: #303a46;
+    vertical-align: middle;
+  }
+  .navbar-nav  li a:hover {
+    color: #ced7e1 !important;
+  }
+  .fa-instagram {
+  color: #2f2f2f;
+  font-size: 35px;
+  text-align: center;
+  width: 50px;
+  height: 35px;
+  text-decoration: none;
+  margin: 2px 5px;
+ 
+}
+  .fa-linkedin{
+  color: #2f2f2f;
+  font-size: 35px;
+  text-align: center;
+  width: 50px;
+  height: 35px;
+  text-decoration: none;
+  margin: 2px 5px;
+ 
+}
+.fa-facebook{
+  color: #2f2f2f;
+  font-size: 35px;
+  text-align: center;
+  width: 50px;
+  height: 35px;
+  text-decoration: none;
+  margin: 2px 5px;
+ 
+}
+.fa-youtube{
+  color: #2f2f2f;
+  font-size: 35px;
+  text-align: center;
+  width: 50px;
+  height: 35px;
+  text-decoration: none;
+  margin: 2px 5px;
+ 
+}
+  </style>
+</head>
+<body>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container" style="padding-bottom: 20px;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand z" href="https://seusite.midiajatai.com.br"><img src="https://seusite.midiajatai.com.br/logo-branca.png" class="img-responsive" style="display:inline;padding-bottom: 20px;" alt="Mídia Jataí" width="130" height="130"></a>
+      </br>
+    </div>
+    <div class="collapse navbar-collapse z" id="myNavbar" style="color:#fff">
+     </br>
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a  href="https://www.linkedin.com/in/larissa-soares-silva-17883b23/" target="_blank" class="fa fa-linkedin2" ><i style="color:white;" class="fa fa-linkedin x"></i> </a>&nbsp </br></li>
+            <li ><a  href="https://www.instagram.com/midiajatai/" target="_blank" class="fa fa-instagram2 x"><i style="color:white;" class="fa fa-instagram x"></i> </a>&nbsp</br></li>
+        <li ><a  href="https://www.facebook.com/midiajatai/" target="_blank" class="fa fa-facebook2 x"><i style="color:white;" class="fa fa-facebook x"></i> </a>&nbsp</br></li>
+        <li ><a  href="https://www.youtube.com/channel/UCqwRIR1htBeuCkSH1VOkmxg" target="_blank" class="fa fa-youtube2 x"><i style="color:white;" class="fa fa-youtube x"></i> </a>&nbsp</br></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </br>
+        <li><a href="#sobre" style="color:#fff">SOBRE</a></li>
+        <li><a href="#servicos" style="color:#fff">SERVIÇOS</a></li>
+        <li><a href="#contato" style="color:#fff">CONTATO</a></li>
+       
+         </ul>
+
+
+    </div>
+
+
+  </div>
+
+
+
+
+</nav>
+
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin"></h3>
+  <img src="https://seusite.midiajatai.com.br/seusite-midiajatai.jpg" class="img-responsive img-circle margin" style="display:inline" alt="ParSin" width="350" height="350">
+  <h3>Desenvolvemos soluções para o agronegócio.</h3>
+</div>
+
+
+<!-- Second Container -->
+<div id="sobre" class="container-fluid bg-22 text-center ">
+  <h3 class="margin text-center">Quem somos?</h3>
+  <p class="margin text-justify">Somos uma empresa com mais de sete anos no mercado, trabalhamos com o desenvolvimento de soluções para o agronegócio. O nosso sistema CRM (Customer Relationship Management) - interliga todos os dados e processos de uma organização em um único sistema. Nosso foco é organizar o fluxo de informações empresariais a fim de oferecer o melhor uso delas </p>
+  <a href="#" class="btn btn-default btn-lg ">
+    <span class="glyphicon glyphicon-signal"></span> AGRO </a>
+</div>
+
+
+<!-- Third Container -->
+<div id="servicos" class="container-fluid bg-3 ">
+  <h3 class="margin text-center">Serviços</h3>
+  <h5 class="margin text-center">SISTEMA DE RASTREAMENTO DE SEMENTES</h5>
+
+
+<p class="margin text-justify">O Sistema  realiza o monitoramento da produção e embarque das sementes produzidas em cinco unidades, de forma informatizada. O Sistema controla o estoque, beneficiamento e expedição das sementes.
+De acordo com a Analista de Sistemas e CEO, o projeto utiliza o código de barras bidimensional, conhecido como QRCODE, que proporciona agilidade, confiança, e transparência nos processos internos de produção e embarque da semente de soja, possibilita ainda que seus clientes consultem através do sistema todo o histórico da semente adquirida na empresa, como: dados do pedido, data do beneficiamento e laudo completo de boletim do laboratório.</p>
+<p class="margin text-justify">O Sistema CRM fornerce data e hora que foi embarcada a semente, e o cliente é informado através de mensagem de texto – SMS, sobre esse embarque.</p>
+</div>
+<div class="container-fluid2 ">
+<img src="https://seusite.midiajatai.com.br/midiajatai-soja.png" class="img-responsive margin2" style="width:100%" alt="Imagem">
+</br>
+</div>
+<!-- Fourth Container (Grid) -->
+<div id="contato" class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Onde nos encontrar?</h3><br>
+  <div class="row">
+    <div class="col-sm-12 col-lg-12 col-md-12 col-xs-12">
+      <p></p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3797.0473232301747!2d-51.70750216424847!3d-17.883240627913125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93626c962e40c42f%3A0x167e5e8476a91302!2sLago%20JK!5e0!3m2!1spt-BR!2sbr!4v1696898358022!5m2!1spt-BR!2sbr" width="98%" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="col-sm-4">
+      <p></p>
+      <img src="https://seusite.midiajatai.com.br/seu-stie-midiajatai-1.jpg" class="img-responsive margin" style="width:100%" alt="Imagem">
+    </div>
+    <div class="col-sm-4">
+      <p></p>
+      <img src="https://seusite.midiajatai.com.br/seu-site-midiajatai-2.jpg" class="img-responsive margin" style="width:100%" alt="Imagem">
+    </div>
+    <div class="col-sm-4">
+      <p></p>
+      <img src="https://seusite.midiajatai.com.br/seu-site-midiajatai.jpg" class="img-responsive margin" style="width:100%" alt="Imagem">
+    </div>
+  </div>
+        <p>Larissa Silva - CEO &nbsp <span class="glyphicon glyphicon-envelope"></span> &nbsp larissa@midiajatai.com.br</p>
+        <p>Canal de Atendimento ao Cliente &nbsp <span class="glyphicon glyphicon-envelope"></span> &nbsp midiajatai@midiajatai.com.br</p>
+        <p>CNPJ 33.754.371/0001-18</p>
+        <p>Ligue para a gente clicando no número de telefone abaixo</p>
+        <a href="tel:+5564981173559" target="_blank"> <p class="fone" style="color:#303a46"><span class="glyphicon glyphicon-phone fone"></span>
+        <!--Aqui você altera o telefone-->
+       
+        +55 64 98117-3559</p></a>
+         
+        </br>
+        <a href="https://www.linkedin.com/in/larissa-soares-silva-17883b23/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/midiajatai/" target="_blank" class="fa fa-instagram"></a>
+        <a  href="https://www.facebook.com/midiajatai/" target="_blank" class="fa fa-facebook"></a>
+        <a  href="https://www.youtube.com/channel/UCqwRIR1htBeuCkSH1VOkmxg" target="_blank" class="fa fa-youtube"></a>
+     
+</div>
+
+
+<!-- WhatsApp -->
+    <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5564981173559&text=Boas-vindas,%20ao%20canal%20de%20atendimento%20da%20Mídia%20da%20Jataí!#" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-1 text-center">
+  <p>Mídia Jataí Soluções Empresariais © 2023</p>
+  <p>Desenvolvido por <a style="color:#fff" href="https://midiajatai.com.br/" target="_blank">Mídia Jataí</a></p>
+</footer>
+
+
+</body>
+</html>
